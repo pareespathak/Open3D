@@ -29,6 +29,9 @@ Create build folder in Open3D
 `make -j$(nproc)`  
 `sudo make install`  
 `sudo make python-package`  
+### Python Installation 
+`pip install open3d`  
+
 
 ## Algorithm  
 We approached the problem statement using DFS(Depth First Search) Algorithm.  
@@ -46,6 +49,7 @@ Copy the Solution.cpp and test_mesh.ply to Open3D/examples/cpp
 Run `./Solution.cpp test_mesh.ply`  
 Outputs Will be stored in examples/result.txt
 ### Python 
+Copy the solution.py and test_mesh.ply to Open3D/examples/python   
 `cd Open3D/examples/python/`  
 `python solution.py --test_mesh.ply`  
 Outputs Will be stored in examples/result.txt
